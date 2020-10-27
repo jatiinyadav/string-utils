@@ -16,4 +16,4 @@ for i in range(len(vals)):
 print("-------")
 
 val = array('i', [5,4,3,2])
-newArr = array(val.typecode, (a * a 
+newArr = array(val.typecode, (a * a for a 
