@@ -14,3 +14,6 @@ for i in range(len(vals)):
     print(vals[i])
   
 print("-------")
+
+val = array('i', [5,4,3,2])
+newArr = 
