@@ -28,3 +28,4 @@ https://www.learningcrux.com/
 
 https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg (Web development)Code with Harry
                
+https://hacktoberfest.digitalocean.com/
