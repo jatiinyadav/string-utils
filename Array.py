@@ -20,7 +20,7 @@ newArr = array(val.typecode, (a * a for a in val)
 print(newArr)
                
               val = array('i',[1,3,5,7,9])
-               print(val
+               print(val.index
 
 print("-------")
                
