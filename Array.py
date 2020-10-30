@@ -18,6 +18,8 @@ print("-------")
 val = array('i', [5,4,3,2])
 newArr = array(val.typecode, (a * a for a in val)
 print(newArr)
+               
+              val = 
 
 print("-------")
                
@@ -35,3 +37,5 @@ https://www.codechef.com/
 https://www.learningcrux.com/course/the-complete-2020-web-development-bootcamp 
 
 print("----")
+
+               
