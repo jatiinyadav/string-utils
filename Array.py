@@ -29,7 +29,7 @@ print("-------")
 
 
                
-https://hacktoberfest.digitalocean.com/
+
 
 https://www.codechef.com/
 
