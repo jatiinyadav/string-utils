@@ -31,7 +31,7 @@ print("-------")
                
 
 
-https://www.learningcrux.com/course/the-complete-2020-web-development-bootcamp 
+
 
 print("----")
 
