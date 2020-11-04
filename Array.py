@@ -23,8 +23,7 @@ print(newArr)
                print(val.index[:2])
 
 print("-------")
-               
-https://www.youtube.com/watch?v=KDQXUysHLL8&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=5 (2D array)
+       
                
        
 https://www.learningcrux.com/ 
