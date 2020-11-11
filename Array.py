@@ -5,7 +5,8 @@ vals.reverse()
 
 for i in vals:
     print(i)
-
+    
+    
 print("-------")
 
 vals = array('i',[2,5,4])
