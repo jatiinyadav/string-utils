@@ -9,6 +9,7 @@ for i in vals:
     
 print("-------")
 
+
 vals = array('i',[2,5,4])
 
 for i in range(len(vals)):
