@@ -4,7 +4,7 @@ vals = array('i',[3,5,7,9])
 vals.reverse()
 
 for i in vals:
-    print(i)
+    print(i) 
     
     
     
