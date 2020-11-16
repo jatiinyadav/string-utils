@@ -5,11 +5,7 @@ vals.reverse()
 
 for i in vals:
     print(i) 
-    
-    
-   
-    
-    
+  
   
     
     
