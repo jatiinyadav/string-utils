@@ -22,4 +22,3 @@ print(newArr)
 
 print("-------")
        
-           
