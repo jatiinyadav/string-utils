@@ -12,7 +12,7 @@ vals = array('i',[2,5,4])
 for i in range(len(vals)):
     print(vals[i])
   
-print("-------")
+print("-------")  
 
 val = array('i', [5,4,3,2])
 newArr = array(val.typecode, (a * a for a in val)
