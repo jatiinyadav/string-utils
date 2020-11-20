@@ -20,6 +20,6 @@ print(newArr)
                val = array('i',[1,3,5,7,9])
                print(val.index[:2])
 
-print("-------")
+print("-------")  
 
                
