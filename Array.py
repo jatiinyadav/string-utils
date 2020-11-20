@@ -21,3 +21,5 @@ print(newArr)
                print(val.index[:2])
 
 print("-------")
+
+               
