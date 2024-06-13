@@ -1,10 +1,11 @@
 {
-  "name": "string-utils",
+  "name": "str-text-utils",
   "version": "1.0.0",
   "description": "A collection of handy string manipulation functions.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Jatin",
