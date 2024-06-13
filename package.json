@@ -1,0 +1,21 @@
+{
+  "name": "string-utils",
+  "version": "1.0.0",
+  "description": "A collection of handy string manipulation functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --loader ts-node/esm test/capitalize.spec.ts"
+  },
+  "keywords": [],
+  "author": "Jatin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.15.4",
+    "typescript": "^5.4.5"
+  }
+}
