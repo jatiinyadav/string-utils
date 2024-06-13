@@ -1,6 +1,6 @@
 {
   "name": "str-text-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of handy string manipulation functions.",
   "main": "dist/index.js",
   "repository": "https://github.com/jatiinyadav/string-utils",
@@ -8,7 +8,16 @@
     "test": "jest",
     "build": "tsc"
   },
-  "keywords": ["string", "string-utils", "regex", "string-manipulation", "word count", "reverse", "palindrone", "trim"],
+  "keywords": [
+    "string",
+    "string-utils",
+    "regex",
+    "string-manipulation",
+    "word count",
+    "reverse",
+    "palindrone",
+    "trim"
+  ],
   "author": "Jatin",
   "license": "ISC",
   "devDependencies": {
