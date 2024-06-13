@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A collection of handy string manipulation functions.",
   "main": "dist/index.js",
+  "repository": "https://github.com/jatiinyadav/string-utils",
   "scripts": {
     "test": "jest",
     "build": "tsc"
