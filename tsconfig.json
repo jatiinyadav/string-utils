@@ -1,23 +1,26 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "target": "ESNext",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "lib": ["ESNext"],
-    "noPropertyAccessFromIndexSignature": false,
-    "isolatedModules": true,
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "typeRoots": ["./src/types/global.d.ts", "./node_modules/@types"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/types/*"
+      ]
+    }
   },
-  "include": ["./index.ts", "./src/*"],
-  "exclude": ["./db.json"],
-  "ts-node": {
-    "esm": true,
-    "files": true,
-    "transpileOnly": true,
-    "experimentalResolver": true,
-    "experimentalSpecifierResolution": "node"
-  }
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
