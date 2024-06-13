@@ -7,7 +7,7 @@
     "test": "jest",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["string", "string-utils", "regex", "string-manipulation", "word count", "reverse", "palindrone", "trim"],
   "author": "Jatin",
   "license": "ISC",
   "devDependencies": {
