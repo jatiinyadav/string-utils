@@ -1,6 +1,6 @@
 {
   "name": "str-text-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of handy string manipulation functions.",
   "main": "dist/index.js",
   "scripts": {
