@@ -1,4 +1,3 @@
-// test/capitalize.test.ts
 import { capitalizeWords } from '../src/capitalize';
 
 describe('capitalizeWords', () => {
