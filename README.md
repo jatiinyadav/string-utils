@@ -11,9 +11,8 @@ npm install str-text-utils
 Import the functions you need from str-text-utils:
 
 ```
-import { toCamelCase, capitalizeWords, countCharacters, isPalindrome, reverseString, trimString } from 'str-text-utils';
+import { toCamelCase, capitalizeWords, countCharacters } from 'str-text-utils';
 
-// Example usage
 const camelCaseString = toCamelCase('hello world');
 console.log(camelCaseString); // "helloWorld"
 
@@ -23,16 +22,10 @@ console.log(capitalized); // "Hello World"
 const charCount = countCharacters('hello world');
 console.log(charCount); // 11
 
-const palindromeCheck = isPalindrome('madam');
-console.log(palindromeCheck); // true
-
-const reversed = reverseString('hello');
-console.log(reversed); // "olleh"
-
-const trimmed = trimString('  hello world  ');
-console.log(trimmed); // "hello world"
-
 ```
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## LICENSE
+This package in under [MIT License](https://github.com/jatiinyadav/string-utils/blob/master/LICENSE).
