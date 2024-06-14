@@ -14,42 +14,18 @@ npm install str-text-utils
 
 Import the functions you need from str-text-utils:
 
-```
-import {
-    capitalizeWords, toCamelCase,
-    trimSpaces, wordCount, reverseString,
-    isPalindrome, toDotCase, toSentenceCase,
-    toSnakeCase } from 'str-text-utils';
+| Name        | Usage           | Output  |
+| ------------- |:-------------:| -----|
+| Capitalize Words      | capitalizeWords('the quick brown fox') | The Quick Brown Fox |
+| Camel Case      | toCamelCase('quick brown fox')      | quickBrownFox |
+| Trim Spaces | trimSpaces('   leading and trailing spaces   ')      |  leading and trailing spaces |
+| Word Count | wordCount('count the number of words') | 5 |
+| Reverse String | reverseString('desserts') | stressed |
+| Palindrone | isPalindrome('A man a plan a canal Panama') | true |
+| Dot Case | toDotCase('dot case example') | dot.case.example |
+| Sentence Case | toSentenceCase('this is a sentence. another one here!') | This is a sentence. Another one here! |
+| Snake Case | toSnakeCase('Snake Case Example') | snake_case_example |
 
-const capitalized = capitalizeWords('the quick brown fox');
-console.log(capitalized); // "The Quick Brown Fox"
-
-const camelCase = toCamelCase('quick brown fox');
-console.log(camelCase); // "quickBrownFox"
-
-const trimmed = trimSpaces('   leading and trailing spaces   ');
-console.log(trimmed); // "leading and trailing spaces"
-
-const wordCountResult = wordCount('count the number of words');
-console.log(wordCountResult); // 5
-
-const reversed = reverseString('desserts');
-console.log(reversed); // "stressed"
-
-const palindromeCheck = isPalindrome('A man a plan a canal Panama');
-console.log(palindromeCheck); // true
-
-const dotCase = toDotCase('dot case example');
-console.log(dotCase); // "dot.case.example"
-
-const sentenceCase = toSentenceCase('this is a sentence. another one here!');
-console.log(sentenceCase); // "This is a sentence. Another one here!"
-
-const snakeCase = toSnakeCase('Snake Case Example');
-console.log(snakeCase); // "snake_case_example"
-
-
-```
 
 ## Contributing
 
