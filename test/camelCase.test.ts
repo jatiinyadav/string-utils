@@ -1,6 +1,6 @@
 import { toCamelCase } from '../src/camelCase';
 
-describe('capitalizeWords', () => {
+describe('camelCase', () => {
   it('should make the first letter small, then capitalize all the first letters', () => {
     const result = toCamelCase('hello world');
     expect(result).toBe('helloWorld');

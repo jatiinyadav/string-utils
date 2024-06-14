@@ -1,6 +1,6 @@
 import { trimSpaces } from '../src/trim';
 
-describe('capitalizeWords', () => {
+describe('trim-words', () => {
   it('should removed spaces from starting and end ', () => {
     const result = trimSpaces('    hello world    ');
     expect(result).toBe('hello world');

@@ -1,6 +1,6 @@
 import { reverseString } from '../src/reverse';
 
-describe('capitalizeWords', () => {
+describe('reverseString', () => {
   it('should return the reversed string', () => {
     const result = reverseString('hello world');
     expect(result).toBe('dlrow olleh');

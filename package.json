@@ -16,7 +16,10 @@
     "word count",
     "reverse",
     "palindrone",
-    "trim"
+    "trim",
+    "snake_case",
+    "dot case",
+    "sentence case"
   ],
   "author": "Jatin",
   "license": "ISC",

@@ -1,6 +1,6 @@
 import { isPalindrome } from '../src/palindrome';
 
-describe('capitalizeWords', () => {
+describe('checkPalindrone', () => {
   it('should return false', () => {
     const result = isPalindrome('hello world');
     expect(result).toBe(false);

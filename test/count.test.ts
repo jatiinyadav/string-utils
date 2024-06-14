@@ -1,6 +1,6 @@
 import { wordCount } from '../src/count';
 
-describe('capitalizeWords', () => {
+describe('wordCount', () => {
   it('should return 2 for 2 words', () => {
     const result = wordCount('hello world');
     expect(result).toBe(2);

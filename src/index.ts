@@ -4,3 +4,6 @@ export { trimSpaces } from './trim';
 export { wordCount } from './count';
 export { reverseString } from './reverse';
 export { isPalindrome } from './palindrome';
+export { toDotCase } from './dot.case'
+export { toSentenceCase } from './sentence'
+export { toSnakeCase } from './snake_case'

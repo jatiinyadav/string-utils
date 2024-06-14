@@ -1,6 +1,6 @@
 import { toKebabCase } from '../src/kebab-case';
 
-describe('capitalizeWords', () => {
+describe('kebab-case', () => {
   it('should convert the string in kebab-case', () => {
     const result = toKebabCase('hello world WorldHELLO');
     expect(result).toBe('hello-world-world-hello');
