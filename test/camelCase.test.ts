@@ -1,4 +1,3 @@
-// test/capitalize.test.ts
 import { toCamelCase } from '../src/camelCase';
 
 describe('capitalizeWords', () => {
