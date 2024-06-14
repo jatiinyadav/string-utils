@@ -19,7 +19,7 @@ import {
     capitalizeWords, toCamelCase,
     trimSpaces, wordCount, reverseString,
     isPalindrome, toDotCase, toSentenceCase,
-    toSnakeCase } from './string-utils';
+    toSnakeCase } from 'str-text-utils';
 
 const capitalized = capitalizeWords('the quick brown fox');
 console.log(capitalized); // "The Quick Brown Fox"

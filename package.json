@@ -13,16 +13,16 @@
     "string-utils",
     "regex",
     "string-manipulation",
-    "word count",
+    "word-count",
     "reverse",
     "palindrone",
     "trim",
     "snake_case",
-    "dot case",
-    "sentence case"
+    "dot-case",
+    "sentence-case"
   ],
-  "author": "Jatin",
-  "license": "ISC",
+  "author": "Jatin Yadav",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",
