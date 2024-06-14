@@ -1,4 +1,4 @@
-import { wordCount } from '../src/count';
+import { wordCount } from '../src/cases';
 
 describe('wordCount', () => {
   it('should return 2 for 2 words', () => {

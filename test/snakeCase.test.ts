@@ -1,4 +1,4 @@
-import { toSnakeCase } from '../src/snake_case';
+import { toSnakeCase } from '../src/cases';
 
 describe('snakeCase', () => {
   it('should convert a string to snake case. ', () => {

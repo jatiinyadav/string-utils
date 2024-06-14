@@ -1,4 +1,4 @@
-import { trimSpaces } from '../src/trim';
+import { trimSpaces } from '../src/cases';
 
 describe('trim-words', () => {
   it('should removed spaces from starting and end ', () => {

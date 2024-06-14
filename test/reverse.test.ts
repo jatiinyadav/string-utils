@@ -1,4 +1,4 @@
-import { reverseString } from '../src/reverse';
+import { reverseString } from '../src/cases';
 
 describe('reverseString', () => {
   it('should return the reversed string', () => {

@@ -1,4 +1,4 @@
-import { toCamelCase } from '../src/camelCase';
+import { toCamelCase } from '../src/cases';
 
 describe('camelCase', () => {
   it('should make the first letter small, then capitalize all the first letters', () => {

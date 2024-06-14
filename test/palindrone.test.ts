@@ -1,4 +1,4 @@
-import { isPalindrome } from '../src/palindrome';
+import { isPalindrome } from '../src/cases';
 
 describe('checkPalindrone', () => {
   it('should return false', () => {

@@ -1,4 +1,4 @@
-import { toDotCase } from '../src/dot.case';
+import { toDotCase } from '../src/cases';
 
 describe('dot-cases', () => {
   it('should return dot-cased string', () => {

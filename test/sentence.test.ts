@@ -1,4 +1,4 @@
-import { toSentenceCase } from '../src/sentence';
+import { toSentenceCase } from '../src/cases';
 
 describe('sentence', () => {
   it('should return sentence-based string', () => {

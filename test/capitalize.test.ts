@@ -1,4 +1,4 @@
-import { capitalizeWords } from '../src/capitalize';
+import { capitalizeWords } from '../src/cases';
 
 describe('capitalizeWords', () => {
   it('should capitalize the first letter of each word', () => {

@@ -1,4 +1,4 @@
-import { toKebabCase } from '../src/kebab-case';
+import { toKebabCase } from '../src/cases';
 
 describe('kebab-case', () => {
   it('should convert the string in kebab-case', () => {

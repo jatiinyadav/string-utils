@@ -15,7 +15,7 @@ npm install str-text-utils
 Import the functions you need from str-text-utils:
 
 | Name        | Usage           | Output  |
-| ------------- |:-------------:| -----|
+| :------------- |:-------------| :-----|
 | Capitalize Words      | capitalizeWords('the quick brown fox') | The Quick Brown Fox |
 | Camel Case      | toCamelCase('quick brown fox')      | quickBrownFox |
 | Trim Spaces | trimSpaces('   leading and trailing spaces   ')      |  leading and trailing spaces |
