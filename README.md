@@ -2,7 +2,7 @@
 
 str-text-utils is a utility library for string manipulation, providing a set of functions to simplify common string operations such as converting to camelCase, capitalizing words, counting characters, checking for palindromes, reversing strings, and trimming whitespace.
 
-## Installation
+## 🛠️ Installation
 
 Install str-text-utils via npm:
 
@@ -10,7 +10,7 @@ Install str-text-utils via npm:
 npm install str-text-utils
 ```
 
-## Usage
+## ⭐ Usage
 
 Import the functions you need from str-text-utils:
 
@@ -27,10 +27,16 @@ Import the functions you need from str-text-utils:
 | Snake Case | toSnakeCase('Snake Case Example') | snake_case_example |
 
 
-## Contributing
+## 🚀 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## LICENSE
+## ✨ Documentation in VS Code
+
+When using this package in Visual Studio Code, you can get more information about each method by hovering over it. 
+
+![alt text](img/hover.png)
+
+## 📃 LICENSE
 
 This package in under [MIT License](https://github.com/jatiinyadav/string-utils/blob/master/LICENSE).
