@@ -101,3 +101,16 @@ export function toSnakeCase(str: string): string {
 export function trimSpaces(str: string): string {
     return str.trim();
 }
+
+/**
+ * Converts a string to Pascal Case.
+ * Pascal Case capitalizes the first letter of each word and removes spaces.
+ * @param {string} str - The string to convert to Pascal Case.
+ * @returns {string} - The string in Pascal Case format.
+ */
+export function toPascalCase(str: string): string {
+    return str
+        .split(/\s+/) // Split the string by whitespace
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize the first letter of each word
+        .join(''); // Join the words without spaces
+}
