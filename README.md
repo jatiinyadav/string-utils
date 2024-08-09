@@ -27,6 +27,7 @@ Import the functions you need from str-text-utils:
 | Sentence Case | toSentenceCase('this is a sentence. another one here!') | This is a sentence. Another one here! |
 | Snake Case | toSnakeCase('Snake Case Example') | snake_case_example |
 | Kebab Case | toKebabCase('My String to Kebab Case') | my-string-to-kebab-case |
+| Pascal Case | toPascalCase('hello world') | HelloWorld |
 
 
 ## 🚀 Contributing
