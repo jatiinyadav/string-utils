@@ -1,3 +1,4 @@
+[![](https://img.shields.io/npm/v/str-text-utils.svg)](https://www.npmjs.com/package/str-text-utils)
 # str-text-utils
 
 str-text-utils is a utility library for string manipulation, providing a set of functions to simplify common string operations such as converting to camelCase, capitalizing words, counting characters, checking for palindromes, reversing strings, and trimming whitespace.
